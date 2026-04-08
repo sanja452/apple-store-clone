@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="navbar">
+            <div class="logo">
+                <img src="data:image/png;base64,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"
+                    alt="">
+            </div>
+            <div class="list">
+                <ul>
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="iphone.html">IPhone</a> </li>
+                    <li> <a href="watch.html">Watch</a> </li>
+                    <li> <a href="mac.html">Mac</a> </li>
+                   
+                    <li> <a href="content.html">Content</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-box">
+            <div class="logo-img">
+                <div class="text">
+                    <h2 class="h2">Apple Store</h2>
+                    <p class="per">Welcome to the Future.</p>
+                    <p class="per">IPhone||Mac||Watch</p>
+                   <a href="#shop" class="btn">Shop Now</a>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <div class="content" id="shop">
+        <div class="content">
+            <div class="card-box">
+                <div class="card-1"> <img
+                        src="https://m.media-amazon.com/images/I/71JGCn1z1TL._AC_UY436_FMwebp_QL65_.jpg">
+                   
+                </div>
+                
+            </div>
+
+            <div class="xyj">
+                <h4>IPhon17 pro</h4>
+                    <p class="p">iPhone 17 Pro Power meets perfection.</p>
+                   
+                    <button class="xdd">$1,099 <br>
+                        Buy Now
+                    </button>
+            </div>
+        </div>
+
+    
+    </div>
+
+
+
+
+</body>
+
+</html>
